@@ -1,0 +1,8 @@
+package com.rudkin.restaurant_v2.repository;
+
+import com.rudkin.restaurant_v2.model.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Integer> {
+
+}
